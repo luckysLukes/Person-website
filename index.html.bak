@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-    <title>Insert web page title here</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Home</title>
     <meta http-equiv="Content-Style-Type" content="text/css">
     <meta name="generator" content="thesitewizard.com's Layout Wizard 4.0.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,17 +11,29 @@
   </head>
   <body>
     <div id="tswcontainer">
-      <div id="tswheader">
-        <!-- start of header section: insert your logo, etc, here -->
-        <p> Placeholder content for your header section. Replace it with your
-          website's logo or name or page title or whatever. </p>
+      <div id="tswheader"> <img src="images/Truck.jpg" alt="Truck Logo" style="width: 202px; height: 104px;"><!-- start of header section: insert your logo, etc, here -->&nbsp;
         <p>&nbsp;</p>
         <!-- end of header section: insert your logo, etc, above this line --> </div>
       <div id="tswcontent">
-        <div id="tswcontproper">
+        <div>
           <!-- start of content column: insert your content here -->
+          <h1><br>
+          </h1>
           <h1>Welcome</h1>
-          <p></p>
+          Hello I am going to tell you about my town that i have lived in along
+          with showing you some images.<br>
+          <p>&nbsp;I live in San Juan Puerto Rico and have for 2 years now gone
+            to school there so I am well versed in the local culture and am able
+            to impress that it is a beautiful island with a lot of very nice
+            people.</p>
+          <img src="images/hill.png" alt="A long chostling with houses">&nbsp;&nbsp;
+          <img src="images/Landm.png" alt="Long chostline"><br>
+          <p>The above images are of different parts of the island one that is
+            nearly untouched by man and the other has been built upon.</p>
+          <!-- end of content column: put your content above this line --> </div>
+      </div>
+      <div id="tswsidecol">
+        <div id="tswsideproper">
           <div id="tswcssbuttons">
             <ul>
               <li><a href="index.html">Home</a></li>
@@ -29,28 +41,6 @@
               <li><a href="mytown.html">My Town</a></li>
             </ul>
           </div>
-          <p></p>
-          <p> If you want a navigation menu for your side column that looks like
-            the one on thesitewizard.com, you can generate your own and
-            customize it, with the <a href="https://www.thesitewizard.com/wizards/css-menu-buttons.shtml">Navigation
-              Menu Wizard</a>. It's free, just like the <a href="https://www.thesitewizard.com/wizards/layout.shtml">Layout
-              Wizard</a> that you used to create this. </p>
-          <p> And if you want a contact form (ie, one that your visitors can use
-            to reach you), go to the <a href="https://www.thesitewizard.com/wizards/feedbackform.shtml">Feedback
-              Form Wizard</a> to create one. Yes, it's free too. </p>
-          <p> Okay, that's it. I've run out of meaningful things to say for this
-            placeholder content, and can't be bothered to think up any more
-            stuff that you're just going to delete anyway. </p>
-          <p> All the best for your site! </p>
-          <p>&nbsp;</p>
-          <!-- end of content column: put your content above this line --> </div>
-      </div>
-      <div id="tswsidecol">
-        <div id="tswsideproper">
-          <!-- start of side column: insert your navigation menu, etc, here -->
-          <p> Placeholder content for the side column: please replace this with
-            your real stuff. </p>
-          <!-- end of side column: put your navigation menu, etc, above this line -->
         </div>
       </div>
       <div style="clear: both;"></div>
@@ -61,6 +51,5 @@
         <!-- end of footer section: insert your copyright notice, etc, above this line -->
       </div>
     </div>
-    
   </body>
 </html>
