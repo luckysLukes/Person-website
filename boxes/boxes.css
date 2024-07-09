@@ -1,0 +1,68 @@
+body {
+    background-color: bisque;
+}
+
+#mybox {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    border: 5px solid darkslategray;
+}
+
+#robot {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    outline: 1.5px solid black;
+
+    animation-name: robot-dance;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes robot-dance {
+    0%,100%{
+        background-color: brown;
+        left: 10%;
+        top: 5%;
+    }
+    25%{
+        top: 20%;
+    }
+    50%{
+        background-color: chocolate;
+        left: 80%;
+    }
+    
+}
+#robot1 {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    outline: 1.5px solid black;
+
+    animation-name: robot-dance1;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes robot-dance1 {
+    0%,100%{
+        background-color: brown;
+        left: 10%;
+        top: 5%;
+    }
+    25%{
+        top: 20%;
+    }
+    50%{
+        background-color: chocolate;
+        left: 80%;
+    }
+    
+}
