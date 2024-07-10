@@ -4,20 +4,20 @@ body {
 
 #mybox {
     position: relative;
-    width: 100%;
-    height: 500px;
+    width: 300px;
+    height: 200px;
     background-color: aqua;
     border: 5px solid darkslategray;
 }
 
 #robot {
     position: absolute;
-    width: 10px;
-    height: 20px;
+    width: 130px;
+    height: 50px;
     outline: 1.5px solid black;
 
     animation-name: robot-dance;
-    animation-duration: 1s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 
 
@@ -27,42 +27,14 @@ body {
     0%,100%{
         background-color: brown;
         left: 10%;
-        top: 5%;
+        top: 20%;
     }
-    25%{
+    25%{left: 35%;
         top: 20%;
     }
     50%{
         background-color: chocolate;
-        left: 80%;
-    }
-    
-}
-#robot1 {
-    position: absolute;
-    width: 10px;
-    height: 20px;
-    outline: 1.5px solid black;
-
-    animation-name: robot-dance1;
-    animation-duration: .9s;
-    animation-iteration-count: infinite;
-
-
-}
-
-@keyframes robot-dance1 {
-    0%,100%{
-        background-color: brown;
-        left: 10%;
-        top: 5%;
-    }
-    25%{
-        top: 20%;
-    }
-    50%{
-        background-color: chocolate;
-        left: 80%;
+        left: 55%;
     }
     
 }
