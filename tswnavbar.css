@@ -20,7 +20,7 @@
 
 #tswcssbuttons li a {
   color: #ffa1f2;
-  background-color: #701f1f;
+  
   border: 1px outset #5c0000;
   text-decoration: none;
   display: block;
@@ -28,10 +28,10 @@
 
 #tswcssbuttons li a:hover {
   color: #ce5a5a;
-  background-color: #1c1717;
+  ;
 }
 
 #tswsideproper {
-  background-color: #ffa1f2;
+
 }
 
