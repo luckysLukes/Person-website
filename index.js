@@ -9,6 +9,8 @@ const clickButton = document.getElementById("click-button")
 const bodySize = document.getElementById("body")
 const body = document.body
 colorField.value = body.style.backgroundColor
+
+
 function buttonPress(){
 
     body.style.backgroundColor = colorField.value
