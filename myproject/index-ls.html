@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="overlays.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gompei's Grass Game</h1>
+    <h2>Score: <span id="score">5</span></h2>
+    <div id="store-container">
+        <div class="store" name="Lawn" cost="5" reap="1" cooldown="0.5"
+        text="Lawn"></div>
+        <div class="store" name="Lawns" cost="20" reap="5" cooldown="0.5"
+        text="Lawns"></div>
+        <div class="store" name="Gompei" cost="50" reap="10" cooldown="2.0" auto="true"
+        src="Img/gompei.png"></div>
+        <div class="store" name="Cow" cost="100" reap="50" cooldown="10.0" auto="true"
+        src="Img/cow.png"></div>
+        <div class="store" name="Firegrass" cost="1000" reap="500" cooldown="15" auto="true"
+        src="Img/firegrass.png"></div>
+        <div class="store" name="Grassfire" cost="15000" reap="5000" cooldown="20" auto="true"
+        src="Img/fire.png"></div>
+        <div class="store" name="Forestfire" cost="200000" reap="50000" cooldown="40" auto="true"
+        src="Img/bigfire.png"></div>
+        <div class="store" name="WorldFire" cost="2000000000" reap="8000000000000" cooldown="1" auto="true"
+        src="Img/world.png"></div>
+
+    </div>
+    <div id="widget-container">
+    </div>
+    
+    <script src="./game.js"></script>
+    <script src="./load.js"></script>
+</body>
+</html>
